@@ -11,10 +11,8 @@
     "ai-proxy": "node --env-file=.env server/ai-proxy.mjs"
   },
   "dependencies": {
-    "vue": "3.4.21"
-  },
-  "devDependencies": {
     "@vitejs/plugin-vue": "5.0.4",
-    "vite": "5.2.8"
+    "vite": "5.2.8",
+    "vue": "3.4.21"
   }
 }
