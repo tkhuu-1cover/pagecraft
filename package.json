@@ -1,0 +1,20 @@
+{
+  "name": "pagecraft",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A visual, multi-page website editor built with Vue 3.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "ai-proxy": "node --env-file=.env server/ai-proxy.mjs"
+  },
+  "dependencies": {
+    "vue": "3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "5.0.4",
+    "vite": "5.2.8"
+  }
+}
